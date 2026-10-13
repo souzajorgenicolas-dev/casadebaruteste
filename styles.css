@@ -1454,7 +1454,17 @@ input {
 
     .consult {
         margin-top: 4px;
+        display: inline-flex;
+        align-items: center;
+        gap: 3px;
         font-size: 5px
+    }
+
+    .consult .arrow-icon {
+        display: inline-flex;
+        width: 10px;
+        height: 10px;
+        flex-basis: 10px
     }
 
     .product-bottom {
